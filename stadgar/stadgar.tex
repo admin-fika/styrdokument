@@ -15,11 +15,20 @@
 \renewcommand{\thefootnote}{\alph{footnote}}
 \renewcommand{\thesection}{\S\arabic{section}}
 
+\newcommand{\documentdate}{2019-XX-XX}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Linköping\\\documentdate}
+\lhead{Stadgar\\Förenade Individer för Kulinariska Arrangemang}
+\rfoot{\thepage}
+
 \title{Förenade Individer för Kulinariska Arrangemang \\
                 F.I.K.A \\
                 Stadgar}
-\author{Föreningen F.I.K.A}
-\date{2019-11-XX}
+\author{}
+\date{\documentdate}
 
 \begin{document}
 \pagenumbering{roman}
@@ -41,32 +50,69 @@ Version & Datum & Anmärkning & \makecell{Första\\läsning} & \makecell{Andra\\
 
 \section{Ändamål}
 \subsection{Syfte}
+\subsection{Namn}
+Föreningens namn är Förenade Individer för Kulinariska Arrangemang.
+\subsubsection{Förkortning}
+Föreningens namn förkortas F.I.K.A., eller FIKA.
+\subsection{Säte}
+Förenade Individer för Kulinariska Arrangemang har sitt säte i Linköping.
+
 
 \section{Medlemskap}
+Medlemskap erhålles genom inskrivande i föreningens register.
 \subsection{Ansökan}
 För att bli medlem i föreningen ska personen i fråga ansöka till
 medlemsfunktionären. Medlemsfunktionären skriver in personen i ett tillfälligt
-register, och skriver in denne i det officiella registret först när en
-inkilningsfika har bjudits på av personen.
+register och skriver in denne i det officiella registret först när en
+inkilningsfika har bjudits på av personen sökande medlemskap.
 
 \subsection{Inkilningsfika}
 För att en person ska bli officiellt inskriven i registret över medlemmar krävs
 det att personen bjuder på fika i enlighet med \ref{fikafika},
-\ref{fikastandard}, och \ref{fredagsfika}.
+\ref{fikastandard}, och \ref{fredagsfika}. Ett inkilningsfika ska bjudas utanför
+schemalagda tillfällen, där ett undantag finns för fredagsfika, se
+\ref{fredagsfika}.
 
-\subsection{Utträdande}
+\subsection{Utträde}
+En föreningsmedlem som ej längre önskar vara medlem i föreningen kan begära
+utträde. Detta sker skriftligen till medlemsfunktionären som ska behandla
+frågan skyndsamt.
 
 \section{Verksamhet}
+\subsection{Organisation}
+\begin{itemize}
+  \item Föreningens föreningsmöte
+  \item Föreningens styrelse
+\end{itemize}
 \subsection{Verksamhetsår}
+Föreningens verksamhetsår sträcker sig från den 1 augusti till den 30 juli.
+
+\section{Föreningsmöte}
+\subsection{Syfte}
+Föreningsmötet är föreningens högst beslutande organ.
+\subsection{Verksamhet}
+Föreningsmötet har att verkställa erforderliga val, granska styrelsens och övriga
+organs verksamhet, dra upp riktlinjer för verksamheten i stort samt fastställa
+den ekonomiska ramen för verksamheten.
+\subsection{Sammanträde}
+Föreningsmötet sammanträder i början av varje kalenderår.
+\subsection{Kallelse}
+%TODO write more here
+\subsection{Propositioner och motioner}
+Propositioner och motioner måste skriftligen inkomma till föreningsstyrelsen
+senast tio dagar före föreningsmötet.
+\subsection{Extra föreningsmöte}
+
 
 \section{Föreningsstyrelsen}
 \subsection{Organisation}
 Styrelsen består av följande ordinarie medlemmar:
 \begin{itemize}
   \item Ordförande
+  \item Kassör
   \item Medlemsfunktionär
 \end{itemize}
-Styrelsen kan bestå utav flera medlemmar än de specificerade ifall årsmötet har
+Styrelsen kan bestå utav flera medlemmar än de specificerade ifall föreningsmötet har
 beslutat det.
 
 \subsection{Sammanträde}
@@ -77,13 +123,14 @@ beslutat det.
 
 \subsection{Ordförande}
 
-\subsection{Medlemsfunktionär}
+\subsection{Kassör}
 
+\subsection{Medlemsfunktionär}
 
 \subsection{Firmateckning}
 
 \section{Fika}
-\subsection{Fika} \label{fikafika}
+\subsection{Fika} \label{fikafika} %TODO rewrite
 Fika definieras i detta dokument som ett sött tilltugg till kaffe eller liknande
 dryck där tilltugget tillhandahålls av den fikaansvarige. Dryck är inte
 obligatoriskt för den fikaansvarige att tillhandahålla, detta kan dock väga upp
@@ -92,39 +139,40 @@ gruppen. En fika är inte en måltid och en fika får inte bara bestå av dryck.
 Fikat ska räcka till varje medlem i det fikande sällskapet. Undantaget till alla
 dessa regler är brist på kapital.
 
-\subsection{Standardfika} \label{fikastandard}
+\subsection{Standardfika} \label{fikastandard} %TODO rewrite
 En standardfika definieras som ett tilltugg som får plats och fyller en öppnad
-hand till stor grad. Torra kex och liknande tilltugg (Mariekex och Digestive
-m.m.) räknas inte som fika, om inte något annat också erbjuds, såsom kaffe,
-saft, ost, eller liknande. Undantag för regler kan göras vid brist på kapital.
+hand till stor grad. Torra kex och liknande tilltugg räknas inte som fika, om
+inte något annat också erbjuds, såsom kaffe, saft, ost, eller liknande. Undantag
+för regler kan göras vid brist på kapital.
 
-\subsection{Hembakat}
+\subsection{Hembakat} %TODO rewrite
 Hembakat är alltid bättre än köpt. Detta gör att det går att undkomma regeln för
 storlek av fika, om det är så att det erbjudna tilltugget är hembakat.
 
-\subsection{Fredagsfika} \label{fredagsfika}
-Fredagsfika sker på ett rullande schema i inskriven ordning. Närvaro är inte
-obligatorisk för de som inte bjuder på fika, detta gäller dock för personen som
-bjuder på fika. Om personen som ska bjuda på fika inte kan närvara ska den
-personen ta kontakt med nästa person på listan så att fika alltid erbjuds på
-fredagar, samt att sällskapet är informerat. Fredagsfikat sker med fördel på
-lunchen, men detta kan ändras om sällskapet informeras samt godkänns av gruppen.
-Under Tenta- och Omtenta-P kan Fredagsfika erbjudas även fast det inte är
-fredag, då fika behövs under dessa perioder.
+\subsection{Fredagsfika} \label{fredagsfika} %TODO rewrite
+Varje fredag på schemalagda veckor på Tekniska högskolan vid Linköpings
+universitet bör ett fredagsfika anordnas av en föreningsmedlem. Fredagsfikats
+anordnande sker på ett rullande schema i inskriven ordning. Närvaro är inte
+obligatorisk för dem som inte bjuder på fika, obligatorisk närvaro gäller dock
+för medlemmen som bjuder på fika. Om medlemmen som ska bjuda på fika inte kan
+närvara ska den medlemmen ta kontakt med nästa medlem på listan så att fika
+alltid erbjuds på fredagar, samt att sällskapet är informerat. Fredagsfikat sker
+med fördel på lunchen, men detta kan ändras om sällskapet informeras samt
+godkänns av gruppen. Under tenta- och omtenta-p kan Fredagsfika erbjudas även
+fast det inte är fredag, då fika behövs under dessa perioder.
 
 En fredagsfika kan tillgodoräknas som en inkilningsfika om detta görs utöver
 schemabunden fredagsfika eller under tenta-p.
 
-\subsection{Eftertentafika}
+\subsection{Eftertentafika} %TODO rewrite
 Efter Tenta-P skall ett stort, gemensamt fika anordnas, ett s.k.
 Efter-tenta-fika. Under ett sådant fika skall varje medverkande individ i
-sällskapet ta med sig något för att bidra till efter-tenta-fika:t, där
-sällskapet gemensamt bestämmer vad som är tillräckligt.
+sällskapet ta med sig något för att bidra till efter-tenta-fikat.
 
 På kvällen efter ett tentafika anordnas ett omfika för de som missade
 eftertentafikat (eller vill fika mer). Varje omfika skall vara temabunden enligt
-nedanstående lista, enligt bästa möjliga mån (där siffra representerar
-tenta-/omtenta-p).
+nedanstående lista enligt bästa möjliga mån (där siffra representerar
+tenta-/omtenta-p i läsårsordning).
 
 Omfikateman:
 \begin{enumerate}
